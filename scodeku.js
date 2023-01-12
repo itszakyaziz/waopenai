@@ -57,7 +57,7 @@ module.exports = scodeku = async (client, m, chatUpdate, store) => {
     if (setting.autoAI) {
         if (budy) {
             try {
-            if (setting.keyopenai === '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') return reply('Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys')
+            if (setting.keyopenai === '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') return reply('Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys')
             const configuration = new Configuration({
               apiKey: setting.keyopenai, 
             });
@@ -85,7 +85,7 @@ module.exports = scodeku = async (client, m, chatUpdate, store) => {
             switch(command) { 
                 case 'ai':
                     try {
-                        if (setting.keyopenai === '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') return reply('Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys')
+                        if (setting.keyopenai === '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') return reply('Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys')
                         if (!text) return reply(`Chat dengan AI.\n\nContoh:\n${prefix}${command} Apa itu resesi`)
                         const configuration = new Configuration({
                             apiKey: setting.keyopenai,
